@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+    /* Nav menu */
+    .nav-menu > ul{
+        display: none;
+    }
+    #hambarger{
+        display: block;
+    }
+    /* banner style */
+    .banner-container{
+        flex-direction: column;
+    }
+    .benner-description{
+        width: 100%;
+    }
+    .background-image{
+        width: 100%;
+        background-position: center bottom;
+    }
+    .free-videos{
+        top: -37px;
+        left: -20px;
+    }
+    .video-tutorial{
+        top: 250px;
+        left: 15px;
+    }
+}
