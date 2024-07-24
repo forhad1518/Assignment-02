@@ -25,4 +25,23 @@
         top: 250px;
         left: 15px;
     }
+    /* Habbit section */
+    .change-your-habbit-card{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .habbit-card img{
+        width: 240px;
+        border-radius: 240px;
+    }
+    /* run-an-extra*/
+    .run-an-extra{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .run-an-extra-discription{
+        display: flex;
+        flex-direction: column;
+    }
 }

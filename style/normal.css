@@ -161,3 +161,69 @@
     font-size: 1rem;
     font-weight: 400;
 }
+/* change-your-habbit */
+.change-your-habbit{
+    display: flex;
+    flex-direction: column;
+}
+.change-description{
+    text-align: center;
+}
+.change-description h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.change-description p{
+    font-size: 0.87rem
+    font-weight: 400;
+}
+.change-your-habbit-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    margin-top: 55px;
+    gap: 40px;
+}
+.habbit-card{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+.habbit-card img{
+    width: 180px;
+    border-radius: 130px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+.card-title{
+    font-size: 1.12rem;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.habbit-card p{
+    font-size: 14px;
+    font-weight: 0.87rem;
+}
+/* Run an extra start */
+.run-an-extra{
+    margin: 100px auto;
+    background-color: rgb(34,34,34);
+    display: flex;
+    gap: 200px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.run-an-extra-discription p{
+    margin: 15px 0 25px 0;
+}
+.run-an-extra-discription h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.run-an-extra-img img{
+    width: 350px;
+    border-radius: 20px;
+}
