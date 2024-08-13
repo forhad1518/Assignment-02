@@ -224,3 +224,109 @@
     width: 350px;
     border-radius: 20px;
 }
+/* Bmi Calculator */
+.BMI{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.bmi-calculator > h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bmi-calculator > p{
+    font-size: 0.90rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+.BMI-chart{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+}
+.BMI-chart-calculator{
+    width: 45%;
+}
+.BMI-chart-calculator > h2{
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+.BMI-chart-calculator > table{
+    border-collapse: collapse;
+    width: 310px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.BMI-chart-calculator > table, tr, td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 13px;
+}
+.bmi-calculator-test h2{
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.bmi-calculator-test p{
+    font-size: 0.90rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.bmi-calculator-input{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 12px;
+}
+.input-1{
+    grid-column: 1/ span 5;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.input-2{
+    grid-column: 6/ span 5;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.input-3{
+    grid-column: 1/ span 5;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.input-4{
+    grid-column: 6/ span 5;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    
+}
+.input-5{
+    grid-column: 1/ span 10;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 30px;
+}
+.text-bmi{
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
