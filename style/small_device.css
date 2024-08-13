@@ -52,6 +52,7 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+        align-items: center;
     }
     .bmi-calculator > h1{
         font-size: 2rem;
@@ -59,5 +60,13 @@
     }
     .BMI-chart-calculator{
         width: 100%;
+    }
+    /* Meet our team */
+    .photo-size{
+        width: 350px;
+        height: 280px;
+    }
+    .meet-our-team-photo{
+        grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -330,3 +330,95 @@
 input::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
+/* Meet our Team */
+.meet-our-team h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+.meet-our-team p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 70px;
+}
+.meet-our-team-photo{
+    background-color: rgb(34,34,34);
+    border-radius: 20px;
+}
+.meet-our-team-photo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.photo-size{
+    width: 280px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: end;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.photo-size h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+}
+.photo-size h6{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.trainer-photo-1{
+    background-image: url("../images/trainer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
+.trainer-photo-2{
+    background-image: url("../images/trainer2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
+.trainer-photo-3{
+    background-image: url("../images/trainer3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
+.trainer-photo-4{
+    background-image: url("../images/trainer4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.trainer-photo-5{
+    background-image: url("../images/trainer5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
+.trainer-photo-6{
+    background-image: url("../images/trainer6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
