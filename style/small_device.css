@@ -62,15 +62,15 @@
         width: 100%;
     }
     /* Meet our team */
-    .photo-size{
-        width: 350px;
-        height: 280px;
-    }
     .meet-our-team-photo{
         grid-template-columns: repeat(1, 1fr);
     }
     /* footer */
     .footer-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* our blogs */
+    .blog-card-section{
         grid-template-columns: repeat(1, 1fr);
     }
 }
