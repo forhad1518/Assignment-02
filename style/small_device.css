@@ -69,4 +69,8 @@
     .meet-our-team-photo{
         grid-template-columns: repeat(1, 1fr);
     }
+    /* footer */
+    .footer-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

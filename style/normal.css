@@ -422,3 +422,50 @@ input::placeholder{
     background-size: 100%;
     border-radius: 15px;
 }
+/* footer  */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 60px 0;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin-bottom: 60px;
+}
+.footer-logo p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-get-start{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-get-start h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.footer-get-start h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.footer-hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.footer-all-right{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
